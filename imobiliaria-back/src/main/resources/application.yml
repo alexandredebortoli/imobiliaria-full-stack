@@ -1,0 +1,13 @@
+spring:
+    datasource:
+        url: jdbc:postgresql://localhost:5432/imobiliaria
+        username: postgres
+        password: 123456
+    jpa:
+        hibernate:
+            ddlAuto: update
+        showSql: true
+    main:
+        allow-circular-references: true
+server:
+    port: 3333
