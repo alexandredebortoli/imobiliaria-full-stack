@@ -95,7 +95,6 @@ class _LoginPageState extends State<LoginPage> {
       }
     });
     return Scaffold(
-      resizeToAvoidBottomInset: false,
       appBar:
           AppBar(title: const Text('Login'), automaticallyImplyLeading: false),
       body: Container(

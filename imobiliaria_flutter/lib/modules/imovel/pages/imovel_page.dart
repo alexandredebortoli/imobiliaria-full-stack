@@ -338,7 +338,6 @@ class _ImovelPageState extends State<ImovelPage> {
       }
     });
     return Scaffold(
-      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         title: const Text('Gerenciar Imóveis'),
       ),

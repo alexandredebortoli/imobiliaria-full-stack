@@ -126,7 +126,6 @@ class _SingInPageState extends State<SingInPage> {
       }
     });
     return Scaffold(
-      resizeToAvoidBottomInset: false,
       appBar: AppBar(title: const Text('Criar Conta')),
       body: Container(
           padding: const EdgeInsets.all(20.0),

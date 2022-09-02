@@ -227,7 +227,6 @@ class _TipoImovelPageState extends State<TipoImovelPage> {
       }
     });
     return Scaffold(
-      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         title: const Text('Gerenciar Tipos de Imóveis'),
       ),

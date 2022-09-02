@@ -340,7 +340,6 @@ class _AdministradorPageState extends State<AdministradorPage> {
       }
     });
     return Scaffold(
-      resizeToAvoidBottomInset: false,
       appBar: AppBar(
         title: const Text('Gerenciar Administradores'),
       ),
